@@ -91,11 +91,12 @@ body {
     color: rgb(20, 110, 39);
     text-decoration: none;
     font-weight: bold;
-    width: 17vw;
-    height: 5vh;
     border-radius: 15px;
     border: none;
     cursor: pointer;
+    padding: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 .cabecalho__titulo, .cabecalho__descricao {
@@ -124,6 +125,7 @@ body {
 .cards h1 {
     font-size: 2.25em;
     margin: 0 10px 60px 10px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -151,15 +153,15 @@ body {
 }
 
 .backcard {
-    background: linear-gradient( rgba(127, 211, 140, 0.70), rgba(127, 211, 140, 0.70)), url(../img/aquatica\ \(2\).jpg);
+    background: linear-gradient( rgba(127, 211, 140, 0.70), rgba(209, 223, 89, 0.7)), url(../img/aquatica\ \(2\).jpg);
 }
 
 .backcard1 {
-    background: linear-gradient( rgba(127, 211, 140, 0.70), rgba(127, 211, 140, 0.70)), url(../img/cacto.jpg);
+    background: linear-gradient( rgba(127, 211, 140, 0.70), rgba(209, 223, 89, 0.7)), url(../img/cacto.jpg);
 }
 
 .backcard2 {
-    background: linear-gradient( rgba(127, 211, 140, 0.70), rgba(127, 211, 140, 0.70)), url(../img/flor.jpg);
+    background: linear-gradient( rgba(127, 211, 140, 0.70), rgba(209, 223, 89, 0.7)), url(../img/flor.jpg);
 }
 
 h3 {
@@ -199,10 +201,6 @@ h3 {
     flex-wrap: wrap;
 }
 
-.beneficios h1 {
-    font-size: 2.25em;
-    margin: 0 10px 60px 10px;
-}
 
 .beneficios-item{
     flex: 1 1 300px;
@@ -219,7 +217,7 @@ h3 {
     display: inline-block;
     width: 8px;
     height: 30px;
-    background: #6dd372d5;
+    background: #ddf030d5;
     margin-right: 3px;
 }
 
