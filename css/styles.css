@@ -124,6 +124,7 @@ body {
 .cards h1 {
     font-size: 2.25em;
     margin: 0 10px 60px 10px;
+    text-align: center;
 }
 
 .container__card {
@@ -210,6 +211,7 @@ h3 {
 
 .beneficios-item h2{
     color: #a4a4a4;
+    padding: 3px;
 }
 
 .beneficios-item h2::before{
@@ -218,6 +220,7 @@ h3 {
     width: 8px;
     height: 30px;
     background: #6dd372d5;
+    margin-right: 3px;
 }
 
 /* Contato */
@@ -293,7 +296,7 @@ form {
 
 .contato__enviar {
     margin-top: 5px;
-    width: 102%;
+    width: 100%;
     background-color: #6dd372d5;
     color: white;
     padding: 3% 0;
