@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link type="text/css" rel="stylesheet" href="./css/estilo.css">
+    <link type="text/css" rel="stylesheet" href="./css/estilo.css">
+    <link rel="icon" type="imagem/png" href="img/icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Roboto+Slab:700|Roboto:400,400i"
+        rel="stylesheet">
+    <title>Plantei</title>
+</head>
+
+<body>
+
+    <div class="menu">
+        <div class="menu-logo">
+            <a href="#">Plantei</a>
+        </div>
+        <nav class="menu-nav">
+            <ul>
+                <li class="menu-nav-item"><a href="#Plantas">Plantas</a></li>
+                <li class="menu-nav-item"><a href="#beneficios">Benefícios</a></li>
+                <li class="menu-nav-item"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header class="cabecalho">
+        <div class="cabecalho__container">
+            <h2 class="cabecalho__titulo">Em nossa loja você acompanha os nossos produtos <br>e também aprende botânica!
+            </h2>
+            <p class="cabecalho__descricao">Olhe a planta de sua escolha, mas se precisar de ajuda estaremos aqui!</p>
+            <button href="#" class="cabecalho__call-to-action">Experimentar agora</button>
+        </div>
+    </header>
+
+
+    <section class="cards">
+        <h1 id="Plantas">Plantas</h1>
+        <div class=" container__card">
+            <div class="item__card backcard">
+                <h3>Áquaticos</h3>
+
+                <p> As plantas aquáticas, que são encontradas naturalmente
+                    em margens de rios, pântanos, lagos e manguezais, têm
+                    ganhado espaço também na decoração e paisagismo de casas. </p>
+                    <div class="button__card"><a href="#" class="button__card">Comprar</a></div>
+            </div>
+
+            <div class="item__card backcard1">
+                <h3>Cactos</h3>
+
+                <p> Pensa em cultivar uma planta, mas falta tempo para cuidados
+                    intensos? Conheça uma espécie muito resistente: cactos!
+                </p>
+                <div class="button__card"><a href="#" class="button__card">Comprar</a></div>
+            </div>
+
+            <div class="item__card backcard2">
+                <h3>Flores</h3>
+
+                <p> Aprenda a energizar sua casa com flores
+                </p>
+                <div class="button__card"><a href="#" class="button__card">Comprar</a></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="beneficios" id="beneficios">
+
+        <div class="beneficios-item">
+            <h2>Relaxa</h2>
+            <p>Tudo o que você precisa é de flores com pétalas roxas, como as violetas. A cor é tranquilizante e ajuda a
+                diminuir as doses de adrenalina do corpo. Como resultado, os níveis de energia crescem e o cérebro
+                recebe mais oxigênio, o que ajuda a relaxar</p>
+        </div>
+
+        <div class="beneficios-item">
+            <h2>Umidificadores Naturais</h2>
+            <p>Em vez de usar um umidificador mecânico, coloque algumas samambaias espalhadas pela casa. Durante a
+                transpiração, as gotículas de água hidratam o ar do ambiente.</p>
+        </div>
+
+        <div class="beneficios-item">
+            <h2>Poderes Curativos </h2>
+            <p>Uma pesquisa do National Institutes of Health, a babosa (aloe vera) era chamada pelos egípcios de a
+                "planta da imortalidade". Eles utilizavam a espécie para curar diversas doenças. Hoje em dia, é comum
+                ver pessoas usando o gel que a planta solta em queimaduras solares e outras feridas para aliviar as
+                dores.</p>
+        </div>
+
+        <div class="beneficios-item">
+            <h2>Poderes Curativos</h2>
+            <p>Se um dia você for acometido por um bloqueio criativo, vá para um local com muito verde. É o que
+                aconselha Justin Hancock, especialista em jardins da Costa Farms. Folhas coloridas, como as da espécie
+                cróton, inspiram e energizam o que está ao redor - inclusive você!</p>
+        </div>
+
+        <div class="beneficios-item">
+            <h2>Limpam o ar</h2>
+            <p>Se você quer um ambiente mais limpo e melhor para respirar, aposte na espécie hera. Segundo os cientistas
+                da NASA, essas plantas filtram o ar porque é a que melhor absorve formaldeído, composto orgânico volátil
+                que é muito tóxico à saúde.</p>
+        </div>
+
+        <div class="beneficios-item">
+            <h2>Fornecem Energia </h2>
+            <p>A cor vermelha é bastante estimulante, aumenta o apetite e dá um gás na energia. A espécie aglaonema
+                provém todas essas coisas na sua casa. Deixe-a no banheiro para que ela te estimule enquanto se arruma
+                para sair de casa.</p>
+        </div>
+    </section>
+
+
+
+    <section class="contato" id="contato">
+        <h2>Sugestões?</h2>
+        <h2>Fale com a gente</h2>
+        <div>
+            <form action="" method="POST">
+                <div class="contato__cliente">
+                    <div class="contato__dados">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome">
+                    </div>
+                    <div class="contato__dados">
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+                    </div>
+                </div>
+                <div class="contato__messagem">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" name="assunto">
+                </div>
+                <div class="contato__messagem">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Enviar" class="contato__enviar">
+            </form>
+        </div>
+
+    </section>
+
+    <footer class="rodape">
+        <div class="footer-container">
+            <ul class="redes">
+                <li><a href="https://twitter.com/"><img src="img/tt.png" height="30" width="30S"></a></li>
+                <li><a href="https://www.facebook.com/"><img src="img/fb.png" height="30" width="30"></a></li>
+                <li><a href="https://www.pinterest.com/"><img src="img/pinterest.png" height="30" width="30"></a></li>
+            </ul>
+            <div class="creditos-rodape> 
+                <p class="creditos-rodape">Desenvolvido por Luíza Beatriz</p>
+                <p class="creditos-rodape">luizabccunha@gmail.com</p>
+                <p class="creditos-rodape" href="#">+55 61 981854456</p>
+
+            </div>
+    </footer>
+
+</body>
+
+</html>
